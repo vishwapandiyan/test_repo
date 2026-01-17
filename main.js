@@ -18,7 +18,7 @@ function hashPassword(password) {
 
 // SECURITY ISSUE: Exposed credentials in client-side code
 const config = {
-    apiKey: process.env.STRIPE_API_KEY || 'your_stripe_api_key_here',
-    secretKey: process.env.SECRET_KEY || 'your_secret_key_here'
+    apiKey: 'sk_live_51234567890123456789012345678901234567890',
+    secretKey: 'secret_key_12345'
 };
 
