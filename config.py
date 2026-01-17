@@ -12,8 +12,8 @@ DATABASE_CONFIG = {
 }
 
 # SECURITY ISSUE: API keys in source code
-STRIPE_SECRET_KEY = os.getenv("STRIPE_SECRET_KEY", "your_stripe_secret_key_here")
-SENDGRID_API_KEY = os.getenv("SENDGRID_API_KEY", "your_sendgrid_api_key_here")
+STRIPE_SECRET_KEY = "sk_live_51234567890123456789012345678901234567890"
+SENDGRID_API_KEY = "SG.1234567890abcdefghijklmnopqrstuvwxyz1234567890"
 
 # SECURITY ISSUE: Weak encryption key
 ENCRYPTION_KEY = "1234567890123456"  # Too short and predictable
